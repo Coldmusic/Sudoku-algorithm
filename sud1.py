@@ -11,7 +11,7 @@ class Sudoku:
 
     #Algorithm for creating a Sudoku puzzle, 
     #without missed numbers
-    #Shuffles array with numbers for 1 to 9 so that the order 
+    #Shuffles array with numbers from 1 to 9 so that the order 
     #will be randomized
     def initGrid(self):
         random.shuffle(self.nums); #Shuffle array with numbers
