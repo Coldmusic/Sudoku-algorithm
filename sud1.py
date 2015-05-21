@@ -35,11 +35,12 @@ class Sudoku:
                 rand = randint(0, 8)
                 i[rand] = 0
 
-    
+    #Create puzzle and set spaces    
     def initPuzzle(self):
         self.initGrid()
         self.setSpaces()
 
+    #Print puzzle nicely
     def printMatrix(self):
         st = ''
         for i in range(9):
